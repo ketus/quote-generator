@@ -1,0 +1,23 @@
+!DOCTYPE html
+html
+  head
+    body
+      script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+      .background
+        .container-fluid
+          h1 Quote Generator    
+          h3 Get inspired every day with this simple app. Enjoy :)
+          
+          .container(style='text-align: center; padding-top: 60px;')
+            .inspire 
+              a#btnQuote.btn.btn-lg.btn-default
+                b.fa.fa-quote-right
+                |  Inspire me
+            .row       
+              .col-md-12          
+                .quote
+                  h3#quote "Dont look back. Something might be gaining on you."
+                  h4#author Unknown          
+                  #tweet
